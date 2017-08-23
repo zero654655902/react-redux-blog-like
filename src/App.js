@@ -3,7 +3,7 @@ import './App.css';
 import Home from './component/Home'
 import Post from './component/Post'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import getPosts from './action/postAction'
+import getPosts from './container/post'
 import {connect} from 'react-redux'
 class App extends Component {
     componentWillMount() {

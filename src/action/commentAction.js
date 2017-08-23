@@ -1,5 +1,8 @@
-export function addComment({comment,postId}) {
-    return dispatch=>{
-        dispatch({type:'ADD_COMMENT',comment,postId})
+
+export const addCommentList = (comment, postId) => {
+    return {
+        type: 'ADD_COMMENT',
+        comment,
+        postId
     }
 }

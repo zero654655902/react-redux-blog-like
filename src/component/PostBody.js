@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import store from '../redux/store'
-import {addLike} from "../action/postAction";
+import {addLike} from "../container/post";
 import {connect} from 'react-redux'
 class PostBody extends Component{
     // like = () => {
