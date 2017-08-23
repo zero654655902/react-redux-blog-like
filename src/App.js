@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import Home from './component/Home'
+import Home from './container/home'
 import Post from './component/Post'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import getPosts from './container/post'

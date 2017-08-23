@@ -35,7 +35,7 @@ class Post extends Component{
     }
 }
 
-
+//export default Post
 const mapStateToProps=(state)=>({
     allComments:state.comments,
     allPosts:state.posts
