@@ -1,4 +1,4 @@
-import post from '../../api/post'
+import post from '../api/post'
 export default function getPosts() {
     return dispatch=>{
         post.getPosts(posts=>{

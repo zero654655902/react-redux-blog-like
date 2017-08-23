@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
 
 // import store from './redux/store'
-import {addComment} from "./redux/action/commentAction";
+import {addComment} from "../action/commentAction";
 import {connect} from 'react-redux'
 class CommentBox extends Component{
     handleSubmit=(e)=>{
@@ -11,7 +11,6 @@ class CommentBox extends Component{
         let postId=this.props.post._id
         this.props.addComment({comment,postId})
         this.inputForm.value=''
-        //console.log('handleSubmit',store.getState())
     }
     render(){
         console.log(this.props.comments)

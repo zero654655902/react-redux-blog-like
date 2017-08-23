@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import store from './redux/store'
+import store from '../redux/store'
 class PostBody extends Component{
     like = () => {
         store.dispatch({type:'LIKE',postId:this.props.post._id})
     }
 
+    
     render() {
         const {post,comments}=this.props
         return(

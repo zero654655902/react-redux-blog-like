@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
-import Home from './Home'
-import Post from './Post'
+import Home from './component/Home'
+import Post from './component/Post'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import getPosts from './redux/action/postAction'
+import getPosts from './action/postAction'
 import {connect} from 'react-redux'
-import post from './api/post'
-
 class App extends Component {
     componentWillMount() {
         this.props.getPosts()
