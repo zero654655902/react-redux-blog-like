@@ -7,3 +7,11 @@ export default function getPosts() {
     }
 
 }
+
+
+export function addLike(like,postId) {
+    return dispatch=>{
+        dispatch({type:'ADD_LIKE',like,postId})
+
+    }
+}
