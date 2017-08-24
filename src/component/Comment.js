@@ -38,3 +38,4 @@ class CommentBox extends Component {
 }
 
 export default connect(null, {addComment})(CommentBox)
+//export default CommentBox
