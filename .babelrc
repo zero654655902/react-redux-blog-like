@@ -1,0 +1,7 @@
+/**
+ * Created by lwan on 27/08/2017.
+ */
+{
+    "presets": ["es2015", "react"]
+}
+
